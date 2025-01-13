@@ -138,6 +138,10 @@ main h2, main h3 {
     color: #2E3440;
 }
 
+h3 {
+    font-size: 22px;
+}
+
 main *:not(ul) {
     text-align: center;
 }
