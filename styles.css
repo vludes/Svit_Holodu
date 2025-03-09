@@ -26,6 +26,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 15px;
     background: #4C566A;
     color: #ECEFF4;
@@ -73,6 +74,17 @@ header span {
     justify-content: center;
     gap: 10px;
     font-size: 22px;
+}
+
+.insta a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.insta a:hover {
+    color: #ECEFF4;
 }
 
 .button {
@@ -205,6 +217,16 @@ footer {
     background: #4C566A;
     color: #ECEFF4;
     font-size: 20px;
+}
+
+footer .insta {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .heading-first {
+        max-width: 300px;
+    }
 }
 
 @media screen and (min-width: 440px) {
